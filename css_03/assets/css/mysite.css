@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body, div,  dl, dt, ol, ul, li,
+h1, h2, h3, h4, h5, h6, input, 
+fieldset, legend, p, select, 
+table, th, td, tr, textarea, 
+button, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕";
+}
+
+a:link, a:visited, a:active, a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+/* clearfix */
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* ul li 리스트 */
+ul li {
+    list-style: none;
+}
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#wrap #header {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#wrap #nav {
+    padding: 15px 0;
+}
+
+#wrap #content {
+}
+
+#wrap #footer {
+    border: 1px solid #000;
+}
+
+/* header */
+#header h1 {
+    float: left;
+    font-size: 35px;
+    color: #79b30b;
+}
+
+#header ul {
+    float: right;
+    margin: 14px 0 0 0;
+}
+
+#header ul > li {
+    float: left;
+    margin-left: 10px;
+    padding: 3px 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+/* nav */
+#nav ul {
+
+}
+
+#nav ul > li {
+    width: 249px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
