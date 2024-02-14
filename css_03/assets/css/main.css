@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#contents #profile {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+
+#contents .greeting-box {
+    float: left;
+    font-size: 18px;
+}
+
+#contents .greeting-box .greeting {
+    font-weight: bold;
+}

@@ -23,7 +23,7 @@ a:link, a:visited, a:active, a:hover{
 .clearfix:after {clear: both;}
 
 /* ul li 리스트 */
-ul li {
+ul, ol {
     list-style: none;
 }
 
@@ -50,7 +50,7 @@ ul li {
 #wrap #footer {
     padding: 15px 0;
     text-align: center;
-    border: 1px solid #000;
+    background: #c0c0c0;
 }
 
 /* header */
@@ -80,30 +80,54 @@ ul li {
 
 /* nav */
 #nav ul > li {
-    width: 249px;
+    width: 250px;
     float: left;
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
-    font-weight: bold;
-}
-
-/* content */
-#content #profile {
-    width: 300px;
-    float: left;
-    margin-right: 30px;
-}
-
-#content .greeting-box {
-    float: left;
-    font-size: 18px;
-}
-
-#content .greeting-box .greeting {
-    font-weight: bold;
 }
 
 /* footer */
 #footer p {
     font-size: 15px;
 }
+
+/* contents2 */
+#contents2 {
+    padding: 20px 0;
+}
+
+#contents2 div {
+}
+#contents2 #aside{
+    width: 180px;
+    float: left;
+}
+
+#contents2 #aside h2 {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    background: #ddd;
+}
+
+#contents2 #aside ul {
+    width: 160px;
+}
+
+#contents2 #aside ul > li {
+    margin-top: 5px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+}
+
+#contents2 #main {
+    width: 820px;
+    float: left;
+}
+
+#contents2 #main 
