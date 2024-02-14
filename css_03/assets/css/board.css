@@ -87,23 +87,61 @@ ul li {
     font-weight: bold;
 }
 
-/* content */
-#content #profile {
+/* contents */
+#contents #profile {
     width: 300px;
     float: left;
     margin-right: 30px;
 }
 
-#content .greeting-box {
+#contents .greeting-box {
     float: left;
     font-size: 18px;
 }
 
-#content .greeting-box .greeting {
+#contents .greeting-box .greeting {
     font-weight: bold;
 }
 
 /* footer */
 #footer p {
     font-size: 15px;
+}
+
+/* contents2 */
+#contents2 {
+    padding: 20px 0;
+}
+
+#contents2 div {
+}
+#contents2 #aside{
+    width: 180px;
+    float: left;
+}
+
+#contents2 #aside h2 {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    background: #ddd;
+}
+
+#contents2 #aside ul {
+    width: 160px;
+}
+
+#contents2 #aside ul > li {
+    margin-top: 5px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+}
+
+#contents2 #main {
+    width: 820px;
+    float: left;
 }
