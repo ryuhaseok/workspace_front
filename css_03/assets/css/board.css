@@ -1,2 +1,28 @@
 @charset "UTF-8";
 
+/* contents2 */
+#contents2 #main .mainTitle-area {
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.mainTitle-area h2 {
+    float: left;
+}
+
+.mainTitle-area ol {
+    float: right;
+}
+
+.mainTitle-area ol li {
+    float: left;
+}
+
+.mainTitle-area ol li:not(:last-child)::after {
+    content: ">";
+}
+
+#contents2 #main .search-box {
+    float: right;
+    margin-bottom: 15px;
+}

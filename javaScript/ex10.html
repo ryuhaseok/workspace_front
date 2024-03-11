@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>자바스크립트</title>
+    </head>
+    <body>
+        <h1>자바스크립트</h1>
+        <h2>소제목</h2>
+    </body>
+
+    <script>
+        //js실행순서 1. 변수명체크 2. 기명함수체크 3. 위에서 아래로 실행
+        //함수정의는 우선순위가 먼저
+        //기명 함수
+        function testA(){
+            console.log("testA 기명함수입니다.");
+        }
+        testA();
+
+        ////////////////
+
+        //익명함수
+        let testB = function(){
+            console.log("익명함수입니다.");
+        }
+
+        //변수 실행 - 변수안에 함수가 있어 실행 가능
+        testB();
+    </script>
+</html>

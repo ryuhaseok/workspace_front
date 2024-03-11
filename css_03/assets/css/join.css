@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.join-box {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.inputTitle {
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+}

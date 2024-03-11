@@ -87,6 +87,10 @@ ul, ol {
     text-align: center;
 }
 
+#contents {
+    margin-bottom: 120px;
+}
+
 /* footer */
 #footer p {
     font-size: 15px;
@@ -129,5 +133,3 @@ ul, ol {
     width: 820px;
     float: left;
 }
-
-#contents2 #main 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>자바스크립트</title>
+    </head>
+    <body>
+        <h1>자바스크립트</h1>
+        <h2>소제목</h2>
+    </body>
+
+    <script>
+        let x;
+
+        function testFunc(){
+            let y;
+
+            x=10; //전역
+            y=20; //지역
+            z=30; //전역
+
+            if(y==20){
+                let b=40;
+                b++;
+                console.log("b="+b);
+            }
+
+            //console.log("b="+b);
+            console.log("x="+x);
+            console.log("y="+y);
+            console.log("z="+z);
+        }
+
+        testFunc();
+        //x, z 만 접근 가능
+        console.log(x);
+        //console.log(y);
+        console.log(z);
+    </script>
+</html>
